@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Contrast Checker</title>
+
+    <link rel="stylesheet" href="contrast.css">
+</head>
+<body>
+
+<div class="main">
+    <div class="container">
+        <h1>Color Contrast Checker</h1>
+
+        <div class="form">
+            <div class="form-group">
+                <label for="textColor">Text Color:</label>
+                <input type="color" id="textColor" value="#000000">
+            </div>
+            <div class="form-group">
+                <label for="bgColor">Background Color:</label>
+                <input type="color" id="bgColor" value="#ffffff">
+            </div>
+        </div>
+
+        <div class="result">
+            Contrast Rating: <span id="contrastRating">N/A</span>
+        </div>
+
+    </div>
+</div>
+
+<script src="contrast.js"></script>
+</body>
+</html>

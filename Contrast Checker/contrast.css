@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url('./triangle.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    text-align: center;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 5px 15px;
+    border-radius: 10px;
+    background-color: rgba(75, 161, 150, 0.8);
+}
+
+.form {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-group {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group > label {
+    font-size: 20px;
+}
+
+.form-group > input {
+    width: 80px;
+    height: 50px;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px 10px;
+    color: #020202;
+}
+
+.container > p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#contrastRating {
+    font-weight: bold;
+    font-size: 20px;
+}
